@@ -210,10 +210,8 @@ body{
 }
 .content2{
     width: 100%;
-    background-image: url(../img/yousef-alfuhigi-353323-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
+    
+    
     position: relative; 
     z-index: 33;  
     padding: 20px;
@@ -232,7 +230,7 @@ body{
     padding: 10px;
     z-index: -1;
     position: relative;
-    border-bottom: 6px solid rgba(212, 210, 198, 0.623);
+    
 }
 .content-designe::after {
 	content: ''; 
@@ -428,7 +426,7 @@ input[type=submit]:hover {
 }
 @media screen and (max-width: 700px){
     .content-designe{
-        height: 730px;
+        height: 60%;
     }
     #customers{
         width: 90%;
