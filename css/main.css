@@ -109,7 +109,7 @@ body{
     top: 19px;
     height: 6px;
     width: 6px;
-    background: #ffffff;
+    background: #f0eded;
     opacity: .5;
   }
   #cssmenu ul li a:before {
@@ -210,20 +210,14 @@ body{
 }
 .content2{
     width: 100%;
-    
-    
     position: relative; 
     z-index: 33;  
     padding: 20px;
     color: white;
 
 }
-
-
-
-
 .content-designe{
-    height: 600px;
+    height: 650px;
     display: block;
     margin: auto;
     width: 80%;
@@ -242,6 +236,28 @@ body{
 	top: 0; 
 	left: 0; 
 	z-index: 1;
+}
+.content-designe::after {
+	content: ''; 
+	width: 100%; 
+	height: 100%; 
+	background-color: #e4d4d4;
+	opacity: 0.2; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 5;
+}
+.content-designe2{
+   
+        margin: auto;
+        width: 80%;
+       
+        color: #ddd;
+        padding: 10px;
+        height: 400px;
+        background-color: #aca1a13d;
+    
 }
 
 
@@ -494,6 +510,10 @@ input[type=submit]:hover {
     .footer{
         width: 100%;
 
+    }
+    
+    .thankyou_message{
+        width: 100%;
     }
   
    
